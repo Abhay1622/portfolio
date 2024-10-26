@@ -69,8 +69,8 @@ export const BackgroundBeamsWithCollision = ({
   return (
     <div
       ref={parentRef}
-      className={cn("h-auto md:h-[45rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0 pt-[7.5rem] sm:pt-10 md:pt-20 lg:pt-30",
-        // h-screen if you want bigger
+      className={cn(
+        "h-auto md:h-[45rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0 pt-[7.5rem] sm:pt-10 md:pt-20 lg:pt-30",
         className
       )}
     >
@@ -82,7 +82,6 @@ export const BackgroundBeamsWithCollision = ({
           parentRef={parentRef}
         />
       ))}
-
       {children}
       <div
         ref={containerRef}
@@ -96,24 +95,21 @@ export const BackgroundBeamsWithCollision = ({
   );
 };
 
-const CollisionMechanism = React.forwardRef<
-  HTMLDivElement,
-  {
-    containerRef: React.RefObject<HTMLDivElement>;
-    parentRef: React.RefObject<HTMLDivElement>;
-    beamOptions?: {
-      initialX?: number;
-      translateX?: number;
-      initialY?: number;
-      translateY?: number;
-      rotate?: number;
-      className?: string;
-      duration?: number;
-      delay?: number;
-      repeatDelay?: number;
-    };
-  }
->(({ parentRef, containerRef, beamOptions = {} }, ref) => {
+const CollisionMechanism = React.forwardRef<HTMLDivElement, {
+  containerRef: React.RefObject<HTMLDivElement>;
+  parentRef: React.RefObject<HTMLDivElement>;
+  beamOptions?: {
+    initialX?: number;
+    translateX?: number;
+    initialY?: number;
+    translateY?: number;
+    rotate?: number;
+    className?: string;
+    duration?: number;
+    delay?: number;
+    repeatDelay?: number;
+  };
+}>(({ parentRef, containerRef, beamOptions = {} }, ref) => {
   const beamRef = useRef<HTMLDivElement>(null);
   const [collision, setCollision] = useState<{
     detected: boolean;
@@ -175,8 +171,8 @@ const CollisionMechanism = React.forwardRef<
   return (
     <>
       <motion.div
-        key={beamKey}
         ref={beamRef}
+        key={beamKey}
         animate="animate"
         initial={{
           translateY: beamOptions.initialY || "-200px",
