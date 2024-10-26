@@ -1,5 +1,6 @@
 'use client'
 import Link from "next/link";
+import Image from 'next/image';
 import { Spotlight } from "./ui/Spotlight";
 import { Button } from "./ui/moving-border";
 import { ShootingStars } from "./ui/shooting-stars";
@@ -14,9 +15,11 @@ export default function HomeDetails() {
             <div className="p-4 relative z-10 w-full text-center">
                 <div className="flex items-center justify-center">
                     <div className="w-40 h-40 sm:w-48 sm:h-48 md:w-48 md:h-48 lg:w-56 lg:h-56 rounded-full overflow-hidden bg-transparent border border-blue-300">
-                        <img
-                            src="It_s_me-removebg-preview.png"
+                        <Image
+                            src="/It_s_me-removebg-preview.png"
                             alt="Ankit Soni"
+                            width={400} 
+                            height={400}
                             className="w-full h-full object-cover"
                         />
                     </div>
