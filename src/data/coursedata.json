@@ -1,0 +1,70 @@
+{
+   "courses": [
+    {
+        "id": 1,
+        "title": "BookStore App",
+        "slug": "bookstore-app",
+        "description": "Build a modern, fully functional bookstore app using the latest web technologies. Learn to handle product listings, cart management, and a seamless user experience.",
+        "price": 99.99,
+        "instructor": "John Doe",
+        "isFeatured": true,
+        "image": "/bookstore.png",
+        "url": "#"
+    },
+    {
+        "id": 2,
+        "title": "Codepen Editor",
+        "slug": "codepen-editor",
+        "description": "Master the Codepen editor to create, test, and share your code with ease. Explore advanced features to enhance your web development skills.",
+        "price": 119.99,
+        "instructor": "Jane Smith",
+        "isFeatured": true,
+        "image": "/codepen.png",
+        "url": "https://ankitsoni03.github.io/Code_Pen_Editor/"
+    },
+    {
+        "id": 3,
+        "title": "Sentimental Analysis",
+        "slug": "sentimental-analysis",
+        "description": "Dive into sentiment analysis with machine learning. Learn how to analyze text data and classify emotions using popular tools and libraries.",
+        "price": 89.99,
+        "instructor": "Mike Johnson",
+        "isFeatured": true,
+        "image": "/sentimental.png",
+        "url": "#"
+    },
+    {
+        "id": 4,
+        "title": "Weather App",
+        "slug": "weather-app",
+        "description": "Create your very own weather application with real-time data. Learn how to use APIs to fetch and display dynamic weather information.",
+        "price": 129.99,
+        "instructor": "Robert Brown",
+        "isFeatured": true,
+        "image": "/weather.png",
+        "url": "https://github.com/AnkitSoni03/Weather-App.git"
+    },
+    {
+        "id": 5,
+        "title": "My Portfolio",
+        "slug": "my-portfolio",
+        "description": "Design and build a professional portfolio website to showcase your work. Learn responsive design, animation, and best practices.",
+        "price": 79.99,
+        "instructor": "David Green",
+        "isFeatured": true,
+        "image": "/portfolio.png",
+        "url": "#"
+    },
+    {
+        "id": 6,
+        "title": "Real-Time Digital Clock",
+        "slug": "real-time-digital-clock",
+        "description": "Develop a real-time digital clock using modern JavaScript techniques. Perfect your skills in time handling and dynamic rendering.",
+        "price": 119.99,
+        "instructor": "Michael Clark",
+        "isFeatured": true,
+        "image": "/dgclock.png",
+        "url": "https://github.com/AnkitSoni03/Digital-Clock.git"
+    }
+]
+}
