@@ -29,27 +29,17 @@ function Navbar({
           <MenuItem setActive={setActive} active={active} item="Home" />
         </Link>
 
-        <Link href={"/experiences"}>
-          <MenuItem setActive={setActive} active={active} item="Experience" />
-        </Link>
-
         <button onClick={scrollToCourses}>
           <MenuItem setActive={setActive} active={active} item="Projects" />
         </button>
 
+        <Link href={"/experiences"}>
+          <MenuItem setActive={setActive} active={active} item="Experience" />
+        </Link>
+
         <Link href={"/certificates"}>
           <MenuItem setActive={setActive} active={active} item="Certifications" />
         </Link>
-
-        <MenuItem setActive={setActive} active={active} item="Contact">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="mailto:sethankit027@gmail.com">Email</HoveredLink>
-            <HoveredLink href="https://www.facebook.com/profile.php?id=100009636765395&mibextid=ZbWKwL">
-              Facebook
-            </HoveredLink>
-            <HoveredLink href="https://www.linkedin.com/in/ankit-soni-98107b243/">LinkedIn</HoveredLink>
-          </div>
-        </MenuItem>
       </Menu>
     </div>
   );
