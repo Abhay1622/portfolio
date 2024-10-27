@@ -1,4 +1,4 @@
-"use client";
+"use client"; // Ensure this is a client component
 import { useRef } from "react";
 import Coursedata from "@/data/coursedata.json";
 import { BackgroundGradient } from "./ui/background-gradient";

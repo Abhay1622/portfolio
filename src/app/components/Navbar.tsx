@@ -4,10 +4,10 @@ import { HoveredLink, Menu, MenuItem } from "./ui/navbar-menu";
 import { cn } from "../lib/utils";
 import Link from "next/link";
 
-export function NavbarDemo({ scrollToCourses }: { scrollToCourses: () => void }) {
+export function NavbarDemo({ scrollToCourses }: { scrollToCourses?: () => void }) {
   return (
     <div className="relative w-full flex items-center justify-center bg-red-500">
-      <Navbar className="top-0" scrollToCourses={scrollToCourses} />
+      <Navbar className="top-0" scrollToCourses={scrollToCourses || (() => {})} />
       <p className="text-black dark:text-white bg"></p>
     </div>
   );
@@ -23,24 +23,22 @@ function Navbar({
   const [active, setActive] = useState<string | null>(null);
 
   return (
-    <div
-      className={cn("fixed top-10 inset-x-0 max-w-9xl mx-auto z-50", className)}
-    >
+    <div className={cn("fixed top-10 inset-x-0 max-w-9xl mx-auto z-50", className)}>
       <Menu setActive={setActive}>
         <Link href={"/"}>
-          <MenuItem setActive={setActive} active={active} item="Home"></MenuItem>
+          <MenuItem setActive={setActive} active={active} item="Home" />
         </Link>
 
         <Link href={"/experiences"}>
-          <MenuItem setActive={setActive} active={active} item="Experience"></MenuItem>
+          <MenuItem setActive={setActive} active={active} item="Experience" />
         </Link>
 
         <button onClick={scrollToCourses}>
-          <MenuItem setActive={setActive} active={active} item="Projects"></MenuItem>
+          <MenuItem setActive={setActive} active={active} item="Projects" />
         </button>
 
         <Link href={"/certificates"}>
-          <MenuItem setActive={setActive} active={active} item="Certifications"></MenuItem>
+          <MenuItem setActive={setActive} active={active} item="Certifications" />
         </Link>
 
         <MenuItem setActive={setActive} active={active} item="Contact">
@@ -56,3 +54,5 @@ function Navbar({
     </div>
   );
 }
+
+export default Navbar;

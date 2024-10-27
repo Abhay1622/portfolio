@@ -27,11 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <div className="relative w-full flex items-center justify-center">
-          <NavbarDemo />
+          <NavbarDemo /> {/* Removed scrollToCourses */}
         </div>
         {children}
         <div className="bg-black antialiased bg-grid-white/[0.2]">
