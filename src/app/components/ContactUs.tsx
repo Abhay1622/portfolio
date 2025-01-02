@@ -13,9 +13,17 @@ const ContactUs = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  // Initialize EmailJS
+  // Initialize EmailJS with error handling
   useEffect(() => {
-    emailjs.init("AJRZFlWoyDcfNlNNI");  //Public API Key from EmailJS emailjs.com
+    try {
+      emailjs.init({
+        publicKey: "AJRZFlWoyDcfNlNNI",
+        blockHeadless: true, // Recommended for security
+      });
+    } catch (initError) {
+      console.error("EmailJS initialization error:", initError);
+      setError("Failed to initialize email service");
+    }
   }, []);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -31,6 +39,13 @@ const ContactUs = () => {
     setLoading(true);
     setError("");
 
+    // Validate form data
+    if (!formData.name || !formData.email || !formData.message) {
+      setError("Please fill out all fields");
+      setLoading(false);
+      return;
+    }
+
     try {
       const templateParams = {
         to_email: "sethankit027@gmail.com",
@@ -40,20 +55,31 @@ const ContactUs = () => {
       };
 
       const response = await emailjs.send(
-        'service_t3l9xqh',   // Service ID from EmailJS emailjs.com
-        'template_tejv1wz',   // Template ID from EmailJS emailjs.com
-        templateParams
+        'service_t3l9xqh',   // Service ID from EmailJS
+        'template_tejv1wz',  // Template ID from EmailJS
+        templateParams,
+        {
+          publicKey: "AJRZFlWoyDcfNlNNI",
+        }
       );
 
-      if (response.status === 200) {
+      console.log("Email send response:", response);
+
+      if (response.status === 200 || response.text === "OK") {
         setSubmitted(true);
         setFormData({ name: "", email: "", message: "" });
       } else {
-        throw new Error('Failed to send email');
+        throw new Error('Email sending failed');
       }
     } catch (err) {
-      setError("Failed to send message. Please try again later.");
-      console.error("Email sending error:", err);
+      console.error("Detailed email sending error:", err);
+      
+      // More specific error handling
+      if (err instanceof Error) {
+        setError(err.message || "Failed to send message. Please try again later.");
+      } else {
+        setError("An unexpected error occurred. Please try again later.");
+      }
     } finally {
       setLoading(false);
     }
