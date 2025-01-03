@@ -8,7 +8,7 @@
             "price": 89.99,
             "instructor": "Mike Johnson",
             "isFeatured": true,
-            "image": "/Mysterious-World.png",
+            "image": "/Mysterious-world.png",
             "url": "https://mysterious-world-lime.vercel.app/"
         },
         {
