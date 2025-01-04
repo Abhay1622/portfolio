@@ -31,7 +31,7 @@
             "instructor": "Jane Smith",
             "isFeatured": true,
             "image": "/codepen.png",
-            "url": "https://ankitsoni03.github.io/Code_Pen_Editor/"
+            "url": "https://code-pen-editor-eta.vercel.app/"
         },
         {
             "id": 4,
@@ -46,14 +46,14 @@
         },
         {
             "id": 5,
-            "title": "My Portfolio",
-            "slug": "my-portfolio",
-            "description": "Design and build a professional portfolio website to showcase your work. Learn responsive design, animation, and best practices.",
+            "title": "Unit Converter",
+            "slug": "Unit-Converter",
+            "description": "A Unit Converter project using HTML, CSS, and JavaScript. It offers a simple interface for converting length, weight, and temperature units with a clean and responsive design.",
             "price": 79.99,
             "instructor": "David Green",
             "isFeatured": true,
-            "image": "/portfolio.png",
-            "url": "https://portfolio-ankit-soni.vercel.app/"
+            "image": "/unit-converter.png",
+            "url": "https://treue-technology-task-3-unit-conversion.vercel.app/"
         },
         {
             "id": 6,
@@ -63,7 +63,7 @@
             "price": 119.99,
             "instructor": "Michael Clark",
             "isFeatured": true,
-            "image": "/dgclock.png",
+            "image": "/Digital-clock.png",
             "url": "https://digital-clock-chi-topaz.vercel.app/"
         }
     ]
