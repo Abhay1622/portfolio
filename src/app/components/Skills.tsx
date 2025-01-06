@@ -4,34 +4,34 @@ import { HoverEffect } from "./ui/card-hover-effect";
 
 export const skills = [
     {
-        title: "Programming Languages",
+        title: "Programming Languages & Core Concepts",
         description:
-            "Proficient in C++, Core Java, and Python (basic), focusing on Object-Oriented Programming (OOP) principles.",
+            "Strong foundation in Data Structures and Algorithms (DSA), Object-Oriented Programming (OOP), and proficient in C++, Java, and basic Python, with a focus on problem-solving and software design principles.",
     },
     {
-        title: "Web Technologies",
+        title: "Frontend Technologies",
         description:
-            "Skilled in HTML5, CSS3, JavaScript, ReactJS, NextJS, and PHP, with experience in frameworks like Laravel, Bootstrap, and Tailwind CSS.",
+            "Skilled in React.js, Next.js, HTML5, CSS3, and Tailwind CSS, with hands-on experience using UI libraries such as Material UI, Shadcn UI, daisyUI, and Aceternity UI for building responsive and attractive user interfaces.",
+    },
+    {
+        title: "Backend & Database Technologies",
+        description:
+            "Proficient in Node.js, Express.js, and MongoDB for backend development, along with a strong understanding of REST APIs for efficient data handling. Experienced in working with both SQL and NoSQL databases.",
     },
     {
         title: "Database Management",
         description:
-            "Strong foundation in Database Management Systems (DBMS) and SQL, with hands-on experience in MySQL for database design and management.",
+            "Expertise in Database Management Systems (DBMS) and SQL, with practical experience in MongoDB and MySQL for efficient database design, optimization, and management.",
     },
     {
-        title: "Tools & Development Platforms",
+        title: "Tools & Technologies",
         description:
-            "Experience using Git, GitHub, PostMan for API testing, and VS Code as the primary development environment for efficient coding.",
+            "Experienced with Git, GitHub, and VS Code for version control and development. Skilled in using Postman for API testing, CodeMirror for code editing, Zod for data validation, and JWT for secure authentication.",
     },
     {
         title: "Project Experience",
         description:
-            "Developed real-time applications such as a CodePen-like editor, BookStore Management System, Live Weather Tracker, and a Digital Clock, showcasing proficiency in various technologies.",
-    },
-    {
-        title: "UI Libraries & Styling",
-        description:
-            "Utilized Material UI, CodeMirror, and DaisyUI for modern, Aceternity UI, Masic Ui and responsive UI designs, ensuring attractive and user-friendly interfaces.",
+            "Developed real-time applications including a CodePen-like editor, BookStore Management System, Live Weather Tracker, and a Digital Clock, showcasing proficiency in various frontend and backend technologies.",
     },
 ];
 
