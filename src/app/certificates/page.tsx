@@ -45,6 +45,12 @@ function Skills() {
       url: "https://drive.google.com/file/d/1Pb1Agztq12OnaYhJiWIswFos4EFcRxSz/view?usp=drivesdk",
     },
     {
+      title: "Software Engineering",
+      description:
+        "Certified in Software Engineering, covering software development life cycle (SDLC), design principles, version control, testing methodologies, and best practices for building robust and scalable software solutions.",
+      url: "https://drive.google.com/file/d/1cZjgszki6l2M8WkJ7zE4YXZpmzCUcuWI/view?usp=drivesdk",
+    },
+    {
       title: "Knowledge Gate (Placement Preparation Course)",
       description:
         "Completion of the Knowledge Gate Placement Preparation Course, covering essential skills and concepts for job readiness.",

@@ -30,7 +30,7 @@ export default function HomeDetails() {
                 <TextGenerateEffect words={words} />
 
                 <div className="mt-4">
-                    <Link href="https://drive.google.com/file/d/1VsyXpfl9ht66fMSWY5a5ku941_mee0G1/view?usp=drivesdk">
+                    <Link href="https://drive.google.com/file/d/1cdDTs3dBbxNlaTzkgdqPVPEeY2OoSMfr/view?usp=drivesdk">
                         <Button
                             borderRadius="1.75rem"
                             className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
