@@ -1,27 +1,27 @@
 {
     "courses": [
-        {
-            "id": 1,
-            "title": "Mysterious World",
-            "slug": "Mysterious World",
-            "description": "Explore a Next.js-powered mysterious world filled with interactive animations and engaging content. Learn React concepts, server-side rendering, and dynamic routing while creating an immersive web experience.",
-            "price": 89.99,
-            "instructor": "Mike Johnson",
-            "isFeatured": true,
-            "image": "/Mysterious.png",
-            "url": "https://mysterious-world-lime.vercel.app/"
-        },
-        {
-            "id": 2,
-            "title": "Vibez",
-            "slug": "vibez-app",
-            "description": "Vibez is a community platform for developers and tech enthusiasts to share knowledge, connect with like-minded individuals, and grow their professional network.",
-            "price": 99.99,
-            "instructor": "John Doe",
-            "isFeatured": true,
-            "image": "/vibez-app-img.jpg",
-            "url": "https://vibez-ecru.vercel.app/"
-        },
+         {
+        "id": "1",
+        "title": "Prepwise – AI Mock Interview Platform",
+        "slug": "prepwise-ai-mock-interview",
+        "description": "Prepwise is an AI-powered mock interview platform built with Next.js, Firebase, and TailwindCSS. It offers real-time feedback, voice-based interview simulations using Vapi AI and Google Gemini, and a responsive dashboard for session management.",
+        "price": "0",
+        "instructor": "Abhay Kaushal",
+        "isFeatured": "true",
+        "image": "/prepwise.png",
+        "url": "https://ai-mock-interviews-omega-six.vercel.app/"
+    },
+    {
+        "id": "2",
+        "title": "Easy-Eats",
+        "slug": "easy-eats-app",
+        "description": "Easy-Eats is a food ordering app using React, CSS, and Redux Toolkit. It fetches restaurant data via Swiggy's API and allows users to browse, filter cuisines, and manage their cart for seamless ordering.",
+        "price": "0",
+        "instructor": "Abhay Kaushal",
+        "isFeatured": "true",
+        "image": "/easy-eats.png",
+        "url": "https://quick-bite-puce.vercel.app/"
+    },
         {
             "id": 3,
             "title": "Codepen Editor",

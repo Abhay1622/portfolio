@@ -7,7 +7,7 @@ import { ShootingStars } from "./ui/shooting-stars";
 import { StarsBackground } from "./ui/stars-background";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 
-const words = `Innovative Full Stack Developer with a Passion for Next.js, API Integrations & Scalable Solutions | MCA Graduate from IET Lucknow`;
+const words = `Innovative Full Stack Developer with a Passion for React, API Integrations & Scalable Solutions | B.Tech Graduate from RRSIMT , Amethi`;
 export default function HomeDetails() {
     return (
         <div className="h-screen md:h-[45rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0 pt-[7.5rem] sm:pt-10 md:pt-20 lg:pt-30">
@@ -16,8 +16,8 @@ export default function HomeDetails() {
                 <div className="flex items-center justify-center">
                     <div className="w-40 h-40 sm:w-48 sm:h-48 md:w-48 md:h-48 lg:w-56 lg:h-56 rounded-full overflow-hidden bg-transparent border border-blue-300">
                         <Image
-                            src="/It_s_me-removebg-preview.png"
-                            alt="Ankit Soni"
+                            src="/abhay-logo.jpg"
+                            alt="Abhay Kaushal"
                             width={400} 
                             height={400}
                             className="w-full h-full object-cover"
@@ -25,7 +25,7 @@ export default function HomeDetails() {
                     </div>
                 </div>
                 <h1 className="mt-10 text-3xl sm:text-4xl md:text-6xl font-bold text-white/[0.1] bg-clip-text bg-gradient-to-b from-neutral-50 to-neutral-400">
-                    Ankit Soni
+                    Abhay Kaushal
                 </h1>
                 <TextGenerateEffect words={words} />
 

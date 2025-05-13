@@ -4,35 +4,29 @@ import { HoverEffect } from "./ui/card-hover-effect";
 
 export const skills = [
     {
-        title: "Programming Languages & Core Concepts",
-        description:
-            "Strong foundation in Data Structures and Algorithms (DSA), Object-Oriented Programming (OOP), and proficient in C++, Java, and basic Python, with a focus on problem-solving and software design principles.",
+        "title": "Programming Languages & Core Concepts",
+        "description": "Strong foundation in Data Structures and Algorithms (DSA), Object-Oriented Programming (OOP), and proficient in C++, Python, and JavaScript. Experienced in problem-solving and writing optimized code."
     },
     {
-        title: "Frontend Technologies",
-        description:
-            "Skilled in React.js, Next.js, HTML5, CSS3, and Tailwind CSS, with hands-on experience using UI libraries such as Material UI, Shadcn UI, daisyUI, and Aceternity UI for building responsive and attractive user interfaces.",
+        "title": "Frontend Technologies",
+        "description": "Skilled in React.js, Next.js, HTML5, CSS3, Tailwind CSS, and Bootstrap. Experienced with UI libraries like Shadcn UI and Aceternity UI for creating accessible and responsive interfaces."
     },
     {
-        title: "Backend & Database Technologies",
-        description:
-            "Proficient in Node.js, Express.js, and MongoDB for backend development, along with a strong understanding of REST APIs for efficient data handling. Experienced in working with both SQL and NoSQL databases.",
+        "title": "Backend & Database Technologies",
+        "description": "Hands-on experience with Node.js, Express.js, PHP, and working with MySQL and MongoDB. Strong understanding of RESTful APIs, data fetching, and integration with frontend interfaces."
     },
     {
-        title: "Database Management",
-        description:
-            "Expertise in Database Management Systems (DBMS) and SQL, with practical experience in MongoDB and MySQL for efficient database design, optimization, and management.",
+        "title": "Version Control & Dev Tools",
+        "description": "Proficient with Git and GitHub for version control and collaboration. Comfortable using VS Code, Postman for API testing, and deploying applications via platforms like Vercel."
     },
     {
-        title: "Tools & Technologies",
-        description:
-            "Experienced with Git, GitHub, and VS Code for version control and development. Skilled in using Postman for API testing, CodeMirror for code editing, Zod for data validation, and JWT for secure authentication.",
+        "title": "CMS & Platform Experience",
+        "description": "Worked extensively with WordPress for custom website development. Familiar with plugin integration, SEO optimization, and theme customization."
     },
     {
-        title: "Project Experience",
-        description:
-            "Developed real-time applications including a CodePen-like editor, BookStore Management System, Live Weather Tracker, and a Digital Clock, showcasing proficiency in various frontend and backend technologies.",
-    },
+        "title": "Projects & Real-world Applications",
+        "description": "Built projects including Prepwise AI Mock Interview Platform and Easy-Eats food app. Experience in deploying production-ready web applications with responsive design and smooth UX."
+    }
 ];
 
 function Skills() {

@@ -4,26 +4,22 @@ import { StickyScroll } from "./ui/sticky-scroll-reveal";
 
 const Education = [
     {
-        title: "Master of Computer Applications (MCA) - Institute of Engineering and Technology, Lucknow (2021-2023)",
+        title: "Bachelor of Technology (B.Tech) in Computer Science and Engineering – Rajarshi Rananjay Sinh Institute of Management & Technology, Amethi (2020–2024)",
         description:
-            "Specialized in software development, algorithms, and system design. Gained expertise in Java, Python, and C++, with hands-on experience in cloud computing and software architecture."
+            "Focused on software development, data structures and algorithms, database systems, web technologies, and machine learning. Engaged in multiple projects and summer training programs to build hands-on experience in full-stack development."
     },
     {
-        title: "Bachelor of Science (B.Sc.) in Mathematics - Mahatma Gandhi Kashi Vidyapeeth University, Varanasi (2017-2020)",
+        title: "12th Grade (CBSE) – SUN FLOWER PUB SCH NANDGANJ TEH SAIDPUR GHAZIPUR (2020)",
         description:
-            "Built a strong foundation in advanced mathematics, logical reasoning, and quantitative analysis, fueling my analytical approach in software engineering."
+            "Completed higher secondary education with a strong foundation in Mathematics and Science, securing 74% overall."
     },
     {
-        title: "12th Grade (10+2) with Mathematics - Shree Kamlakar Chaubey Adarsh Seva Inter College, Varanasi (2017)",
+        title: "10th Grade (CBSE) – Bal Niketan Senior Secondary School, Varanasi (2019)",
         description:
-            "Focused on core mathematics, deepening my knowledge in calculus, algebra, and trigonometry—skills that directly influence my technical problem-solving today."
-    },
-    {
-        title: "Secondary Education - Sanatan Dharm Inter College, Varanasi (2015)",
-        description:
-            "Early academic foundation in science and mathematics, setting the stage for my journey in analytical thinking and structured problem-solving."
+            "Built a strong academic base in core subjects including Science, Mathematics, and English, scoring 71%."
     }
 ];
+
 
 export function Qualifications() {
     return (

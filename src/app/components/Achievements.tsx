@@ -27,9 +27,9 @@ const achievements = [
         title: "Third Semester Achievement",
     },
     {
-        quote: "Earned a certificate for my active role in managing and organizing the MCA department's Fest at the Institute of Engineering and Technology, Lucknow, in 2023.",
-        name: "Leadership & Teamwork",
-        title: "Fest Organization Contribution",
+        quote: "Successfully completed Summer Training in Full Stack Web Development at Techpile Technology Private Limited, mastering MERN stack, REST APIs, and production deployment.",
+        name: "Professional Training",
+        title: "Full Stack Developer - Techpile (2023)",
     },
     {
         quote: "Secured All India Rank (AIR) 197 out of 10,000 and Category Rank 38 in UPCET, reflecting my competitive spirit and academic strength.",
@@ -47,8 +47,15 @@ const achievements = [
         title: "Online Coding Platforms",
     },
     {
-        quote: "Received an award for achieving the highest marks in Mathematics during my final year of B.Sc, highlighting my academic consistency.",
-        name: "Mathematics Excellence",
-        title: "B.Sc Final Year Achievement",
+        quote: "Recognized as the consistent top coder in my college, ranked 1st in internal competitive programming events.",
+        name: "Campus Excellence",
+        title: "Top Coder - College Ranking",
     },
+    {
+        quote: "Held the position of Branch Head of the Information Technology Department during 2022–2023, managing technical initiatives and leading peers.",
+        name: "Leadership",
+        title: "Branch Head – IT Department",
+    }
 ];
+
+
