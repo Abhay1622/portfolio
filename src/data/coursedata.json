@@ -1,24 +1,24 @@
 {
     "courses": [
          {
-        "id": "1",
+        "id": 1,
         "title": "Prepwise – AI Mock Interview Platform",
         "slug": "prepwise-ai-mock-interview",
         "description": "Prepwise is an AI-powered mock interview platform built with Next.js, Firebase, and TailwindCSS. It offers real-time feedback, voice-based interview simulations using Vapi AI and Google Gemini, and a responsive dashboard for session management.",
-        "price": "0",
+        "price": 0,
         "instructor": "Abhay Kaushal",
-        "isFeatured": "true",
+        "isFeatured": true,
         "image": "/prepwise.png",
         "url": "https://ai-mock-interviews-omega-six.vercel.app/"
     },
     {
-        "id": "2",
+        "id": 2,
         "title": "Easy-Eats",
         "slug": "easy-eats-app",
         "description": "Easy-Eats is a food ordering app using React, CSS, and Redux Toolkit. It fetches restaurant data via Swiggy's API and allows users to browse, filter cuisines, and manage their cart for seamless ordering.",
-        "price": "0",
+        "price": 0,
         "instructor": "Abhay Kaushal",
-        "isFeatured": "true",
+        "isFeatured": true,
         "image": "/easy-eats.png",
         "url": "https://quick-bite-puce.vercel.app/"
     },
