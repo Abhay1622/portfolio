@@ -3,58 +3,28 @@
 function Skills() {
   const certificates = [
     {
-      title: "Java",
-      description:
-        "Certified in Java programming, with a strong focus on Object-Oriented Programming principles and efficient problem-solving techniques.",
-      url: "https://drive.google.com/file/d/1Jes0M8N_dgZkZBBYBCjoKShqwGsj4GWk/view",
-    },
-    {
       title: "Python",
       description:
         "Certification in Python, showcasing proficiency in scripting, data manipulation, and foundational programming skills.",
-      url: "https://drive.google.com/file/d/1PbCvBejOYTQ0hs8n4vBPzXIq3BuxnmCN/view?usp=drivesdk",
-    },
-    {
-      title: "Problem Solving",
-      description:
-        "Certified in problem-solving and algorithmic thinking, with hands-on experience in tackling complex coding challenges.",
-      url: "https://drive.google.com/file/d/1PbWu51K9qofgh5wCKq2DsZyaN2LJXEsZ/view?usp=drivesdk",
-    },
-    {
-      title: "SQL",
-      description:
-        "Certification in SQL, demonstrating strong abilities in database querying, management, and design with MySQL.",
-      url: "https://drive.google.com/file/d/1JfbaOHR5pZuTzIVm1UEiURwvG7wBYktV/view?pli=1",
+      url: "https://drive.google.com/file/d/1fYjSnOwkxpbwqw-13j6P8NDVNaSeuq2w/view?usp=drive_link",
     },
     {
       title: "CSS",
       description:
         "Certified in CSS, skilled in responsive web design, and proficient in creating visually appealing layouts using modern styling techniques.",
-      url: "https://drive.google.com/file/d/1PcKydu067gT4WhtpMkhbrtYuu--24nwJ/view?usp=drivesdk",
+      url: "https://drive.google.com/file/d/1as3XFhQG30J8TnlpuKFUog3DiwZ4EnvX/view?usp=drive_link",
     },
     {
       title: "JavaScript",
       description:
         "Certification in JavaScript, with expertise in building dynamic web applications and enhancing user experiences.",
-      url: "https://drive.google.com/file/d/1Jes0M8N_dgZkZBBYBCjoKShqwGsj4GWk/view",
+      url: "https://drive.google.com/file/d/191qlQYRq1Qk5ZsCmtDSo55ndVDFsAeyA/view?usp=drive_link",
     },
     {
       title: "ReactJS",
       description:
         "Certified in ReactJS, focusing on building interactive, efficient, and reusable components for web applications.",
-      url: "https://drive.google.com/file/d/1Pb1Agztq12OnaYhJiWIswFos4EFcRxSz/view?usp=drivesdk",
-    },
-    {
-      title: "Software Engineering",
-      description:
-        "Certified in Software Engineering, covering software development life cycle (SDLC), design principles, version control, testing methodologies, and best practices for building robust and scalable software solutions.",
-      url: "https://drive.google.com/file/d/1cZjgszki6l2M8WkJ7zE4YXZpmzCUcuWI/view?usp=drivesdk",
-    },
-    {
-      title: "Knowledge Gate (Placement Preparation Course)",
-      description:
-        "Completion of the Knowledge Gate Placement Preparation Course, covering essential skills and concepts for job readiness.",
-      url: "https://drive.google.com/file/d/1JhexvG978U5OzDzWGCu72pRYWKVSzFnI/view?pli=1",
+      url: "https://drive.google.com/file/d/1XiL1H0G3W_UpVFzYzb0Ibq4nvbVMB2XH/view?usp=drive_link",
     },
   ];
 

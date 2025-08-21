@@ -1,5 +1,42 @@
 {
     "courses": [
+        
+        {
+            "id": 5,
+            "title": "Book Cabin",
+            "slug": "book-cabin",
+            "description": "Constructed full-stack hotel booking platform featuring 50+ luxury cabin listings with amenity details and availability calendars Leveraged TypeScript and Prisma ORM for type-safe database operations managing 200+ booking records with PostgreSQL backend",
+            "price": 79.99,
+            "instructor": "David Green",
+            "isFeatured": true,
+            "image": "/cabinn.png",
+            "url": "https://book-cabin.vercel.app/cabins"
+        },
+        
+
+        {
+            "id": 3,
+            "title": "Prep Ai",
+            "slug": "interviewprep-ai",
+            "description": "Engineered AI-powered interview preparation platform utilizing Gemini API to generate questions across 20+ technical topics Configured MongoDB database storing .",
+            "price": 119.99,
+            "instructor": "Jane Smith",
+            "isFeatured": true,
+            "image": "/prep_ai.png",
+            "url": "https://interviewprep-ai-five.vercel.app/"
+        },
+        {
+            "id": 4,
+            "title": "Store It",
+            "slug": "cloud-vault",
+            "description": "Created cloud file storage platform enabling users to upload, organize, and manage 10GB+ of files with drag-and-drop functionality Integrated Appwrite backend providing secure authentication, file operations.",
+            "price": 119.99,
+            "instructor": "Michael Clark",
+            "isFeatured": true,
+            "image": "/claou_vault.png",
+            "url": "https://cloud-vault-nu.vercel.app/sign-in"
+        },
+
          {
         "id": 1,
         "title": "Prepwise – AI Mock Interview Platform",
@@ -11,6 +48,7 @@
         "image": "/prepwise.png",
         "url": "https://ai-mock-interviews-omega-six.vercel.app/"
     },
+    
     {
         "id": 2,
         "title": "Easy-Eats",
@@ -22,39 +60,9 @@
         "image": "/easy-eats.png",
         "url": "https://quick-bite-puce.vercel.app/"
     },
-        {
-            "id": 3,
-            "title": "Codepen Editor",
-            "slug": "codepen-editor",
-            "description": "Master the Codepen editor to create, test, and share your code with ease. Explore advanced features to enhance your web development skills.",
-            "price": 119.99,
-            "instructor": "Jane Smith",
-            "isFeatured": true,
-            "image": "/codepen.png",
-            "url": "https://code-pen-editor-eta.vercel.app/"
-        },
-        {
-            "id": 4,
-            "title": "Task Manager",
-            "slug": "task-manager",
-            "description": "Build a task manager application to organize your daily tasks efficiently. Learn how to implement CRUD operations and manage state effectively.",
-            "price": 119.99,
-            "instructor": "Michael Clark",
-            "isFeatured": true,
-            "image": "/Task-manager-app.jpg",
-            "url": "https://todo-task-management-app-rosy.vercel.app/"
-        },
-        {
-            "id": 5,
-            "title": "Dev-X-pert",
-            "slug": "dev-x-pert",
-            "description": "Dev-x-pert is an online education platform where I provide courses on Web Development, MERN, MEAN Stack, Java, and more. Focused on practical learning, the platform helps students build strong, real-world tech skills.",
-            "price": 79.99,
-            "instructor": "David Green",
-            "isFeatured": true,
-            "image": "/DevXpert-app.jpg",
-            "url": "https://dev-xpert.vercel.app/"
-        },
+        
+        
+        
         {
             "id": 6,
             "title": "Weather App",

@@ -25,3 +25,30 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+}
+
+@keyframes float-delay {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes float-slower {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+.animate-float-delay {
+  animation: float-slow 7s ease-in-out infinite 1s;
+}
+
+.animate-float-slower {
+  animation: float-slower 8s ease-in-out infinite 0.5s;
+}

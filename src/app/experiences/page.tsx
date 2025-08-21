@@ -29,30 +29,7 @@ const Experiences = () => {
         </div>
       </div>
 
-      {/* Internship Section */}
-      <div>
-        <h2 className="text-4xl font-semibold mb-4 text-teal-300 border-b-2 border-teal-600 pb-2">Internship</h2>
-
-        {/* Treue Technology Internship Card */}
-        <div className="bg-gray-900 p-8 rounded-lg shadow-xl transition-colors duration-300 hover:bg-gray-800 mb-6">
-          <div className="relative pb-2 mb-6 border-b border-gray-700">
-            <h3 className="text-3xl font-semibold mb-1">Treue Technology</h3>
-            <p className="text-gray-400 italic">Web Developer Intern | Sept 2023 - Oct 2023</p>
-          </div>
-          <p className="text-gray-300 leading-relaxed">
-            Completed an online web development internship, mastering HTML, CSS, JavaScript, and ReactJS through hands-on projects and expert mentorship. Developed practical skills ready for real-world application in professional settings.
-          </p>
-          <div className="mt-4 flex justify-between items-center">
-            <div className="text-gray-400 text-sm">
-              <p>Technologies: HTML, CSS, JavaScript, ReactJS</p>
-              <p>IDE: VS Code</p>
-            </div>
-            <div className="text-teal-300 hover:text-teal-100 transition duration-300">
-              <a href="https://github.com/AnkitSoni03" className="underline">View Projects</a>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       {/* View Experience Later Option */}
 
